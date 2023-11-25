@@ -62,7 +62,7 @@ void graph::find_path(std::vector<int> path, int pos, int targ, double len, doub
 void graph::add_graph_edge(){
     int a;
     int b;
-    int distance;
+    double distance;
     std::cout << "Enter starting point: ";
     std::cin >> a;
     std::cout << "Enter finishing point: ";
